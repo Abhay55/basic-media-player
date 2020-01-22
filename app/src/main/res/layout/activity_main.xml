@@ -1,0 +1,33 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="play"
+        android:layout_height="wrap_content"
+        android:id="@+id/play"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="pause"
+        android:layout_height="wrap_content"
+        android:id="@+id/pause"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="stop"
+        android:layout_height="wrap_content"
+        android:id="@+id/stop"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="FF"
+        android:layout_height="wrap_content"
+        android:id="@+id/ff"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="FB"
+        android:layout_height="wrap_content"
+        android:id="@+id/fb"/>
+
+</LinearLayout>
